@@ -13,7 +13,39 @@
 // 3. Given users below,
 const data = [
     { name: 'James', age: 34, occupation: 'farmer', city: 'Toronto' },
+
     { name: 'Peter', age: 45, occupation: 'dentist', city: 'Montreal' },
     { name: 'Mark', age: 26, occupation: 'vlogger', city: 'Ottawa' },
   ];
   // *** To Be continued ***
+//creating a class using constructors as a blue print so we can sketch the Object.
+class School{
+  constructor(name,location,grades,numStudents,students){
+    this.name = name;
+    this.location = location;
+    this.grades = grades;
+    this.numStudents = numStudents;
+    this.students = students;
+  }
+}
+//added value to the objects needed for school to be created by also logging each into a console.
+const central = new School('Mukono High','Jinja',[45,78,42],3,['Musoke']);
+console.log("This is data",central)
+
+ const jj1 = new School('Central College','Ottawa',[],45,[]);
+//  console.log(jj1)
+
+ //example of how to add different values to the main object properties so we can render more data .
+// const jj2 = new School()
+// const jj3 = new School()
+// const jj4 = new School()
+// const jj5 = new School()
+
+// class 
+
+
+
+
+
+
+
